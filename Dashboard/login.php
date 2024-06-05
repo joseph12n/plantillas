@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Iniciar Sesión</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="dise">
   <link rel="stylesheet" href="diseño_login.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://apis.google.com/js/platform.js?onload=renderButton"></script>
@@ -24,7 +25,7 @@
       } else {
         alert("¡Hola! Has iniciado sesión con éxito.");
         console.log("Redireccionando a la página principal...");
-        window.location.href = "NOTIFY.html";
+        window.location.href = "NOTIFY.php";
         return false;
       }
     }
@@ -48,7 +49,7 @@
         </div>
       </form>
       <p class="text-center mb-0">
-        <a href="login_recuperar_contraseña.html" class="forgot-password-link">¿Olvidaste tu contraseña?</a>
+        <a href="login_recuperar_contraseña.php" class="forgot-password-link">¿Olvidaste tu contraseña?</a>
       </p>
     </div>
   </div>
